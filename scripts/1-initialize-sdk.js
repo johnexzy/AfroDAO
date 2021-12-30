@@ -1,6 +1,8 @@
 import { ThirdwebSDK } from "@3rdweb/sdk";
-import ethers from "ethers";
+import dotenv from "dotenv"
 
+import ethers from "ethers";
+dotenv.config();
 //Importing and configuring our .env file that we use to securely store our environment variables
 
 // Some quick checks to make sure our .env is working.

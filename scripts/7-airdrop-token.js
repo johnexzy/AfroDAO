@@ -15,7 +15,7 @@ const tokenModule = sdk.getTokenModule(
   try {
     // Grab all the addresses of people who own our membership NFT, which has 
     // a tokenId of 0.
-    const walletAddresses = await bundleDropModule.getAllClaimerAddresses("0");
+    const walletAddresses = await bundleDropModule.getAllClaimerAddresses("1");
   
     if (walletAddresses.length === 0) {
       console.log(

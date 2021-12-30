@@ -9,9 +9,9 @@ const bundleDrop = sdk.getBundleDropModule(
   try {
     await bundleDrop.createBatch([
       {
-        name: "Leaf Village Headband",
-        description: "This NFT will give you access to NarutoDAO!",
-        image: readFileSync("scripts/assets/head.png"),
+        name: "AfroApes Membership card",
+        description: "This NFT will give you access to AfroDAO!",
+        image: readFileSync("scripts/assets/unnamed.jpg"),
       },
     ]);
     console.log("✅ Successfully created a new NFT in the drop!");
