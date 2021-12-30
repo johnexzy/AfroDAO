@@ -19,8 +19,8 @@ const connectors = {
     },
     walletconnect: {},
     walletlink: {
-      appName: "thirdweb - demo",
-      url: "https://thirdweb.com",
+      appName: "AfroDAO",
+      url: "https://buildspace-dao-starter.johnexzy.repl.co/",
       darkMode: false,
     },
 };
